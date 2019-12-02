@@ -5,3 +5,6 @@
 	path = public
 	url = git@github.com:happyjiahui/happyjiahui.github.io.git
 	branch = master
+[submodule "themes/maupassant"]
+	path = themes/maupassant
+	url = https://github.com/rujews/maupassant-hugo
