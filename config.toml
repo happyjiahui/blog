@@ -11,3 +11,16 @@ theme = "maupassant"
   subtitle = "快乐人生 分享技术"
   keywords = "java"
   description = "专注于Java、项目管理、软件架构"
+
+[menu]
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 4
