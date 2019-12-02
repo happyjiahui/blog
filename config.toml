@@ -1,4 +1,4 @@
-baseURL = "http://www.flysnow.org"
+baseURL = "https://happyjiahui.github.io/"
 languageCode = "zh-CN"
 title = "Happy JiaHui"
 theme = "maupassant"
