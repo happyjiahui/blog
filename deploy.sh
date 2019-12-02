@@ -1,4 +1,6 @@
 #!/bin/sh
+msg="$(git log --pretty=format:“%s” -1 HEAD)"
+echo $msg
 
 # If a command fails then the deploy stops
 set -e
@@ -15,7 +17,6 @@ cd public
 git add .
 
 # Commit changes.
-msg="$(git log --pretty=format:“%s” -1 HEAD)"
 if [ -n "$*" ]; then
 	msg="$*"
 fi
