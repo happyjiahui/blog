@@ -1,0 +1,7 @@
+[submodule "themes/even"]
+	path = themes/even
+	url = https://github.com/olOwOlo/hugo-theme-even.git
+[submodule "public"]
+	path = public
+	url = git@github.com:happyjiahui/happyjiahui.github.io.git
+	branch = master
