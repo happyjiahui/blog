@@ -13,6 +13,7 @@ theme = "maupassant"
   description = "专注于Java、项目管理、软件架构"
 
 [menu]
+
   [[menu.main]]
     identifier = "archives"
     name = "归档"

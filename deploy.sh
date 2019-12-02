@@ -1,6 +1,5 @@
 #!/bin/sh
-msg="$(git log --pretty=format:“%s” -1 HEAD)"
-echo $msg
+msg=$(git log --pretty=format:“%s” -1 HEAD)
 
 # If a command fails then the deploy stops
 set -e
